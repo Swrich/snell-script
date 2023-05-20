@@ -1,4 +1,4 @@
-FROM primovist/alpine-glibc
+FROM durianice/alpine-mini
 RUN apk add --no-cache dpkg
 LABEL maintainer="durianice" \
          org.label-schema.name="snell-server"
